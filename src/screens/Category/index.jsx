@@ -11,6 +11,11 @@ export default function Category() {
         <TouchableOpacity style={styles.btn} onPress={() => navigation.navigate('Home')}>
             <Text>Home</Text>
         </TouchableOpacity>
+
+        <TouchableOpacity style={styles.btn} onPress={() => navigation.navigate('Profile')}>
+            <Text>Profile</Text>
+        </TouchableOpacity>
+
     </View>
   )
 }

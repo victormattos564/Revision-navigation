@@ -8,8 +8,9 @@ export default StyleSheet.create({
         backgroundColor: 'aliceblue',
     },
     btn : {
-        backgroundColor: 'lightblue',
-        padding: 10,
-        margin: 10,
-    }
+      margin: 10,
+      padding: 10,
+      backgroundColor: 'lightgray',
+      borderRadius: 10,
+  }
 });

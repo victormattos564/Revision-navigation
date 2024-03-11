@@ -11,6 +11,11 @@ export default function Profile() {
         <TouchableOpacity style={styles.btn} onPress={() => navigation.navigate('Home')}>
             <Text>Home</Text>
         </TouchableOpacity>
+
+        <TouchableOpacity style={styles.btn} onPress={() => navigation.navigate('Category')}>
+            <Text>Categoria</Text>
+        </TouchableOpacity>
+        
     </View>
   )
 }
