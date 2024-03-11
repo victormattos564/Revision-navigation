@@ -7,4 +7,8 @@ const styles = StyleSheet.create({
     alignItems: 'center', 
     backgroundColor: 'lightblue'
   }
+
+
 });
+
+export default styles;
